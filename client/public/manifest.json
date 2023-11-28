@@ -1,0 +1,12 @@
+{
+  "short_name": "Suguni",
+  "name": "SuguniPoint",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

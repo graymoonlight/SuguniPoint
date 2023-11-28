@@ -1,0 +1,33 @@
+.home-foot {
+    background-color: #FFD3DC;
+    padding: 20px;
+    text-align: center;
+    color: #3E2723;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.home-foot p{
+    font-size: 15px;
+}
+.footer-section {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.footer-section h2 {
+    color: #3E2723;
+}
+
+.footer-section p {
+    color: #3E2723;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #3E2723;
+    cursor: pointer;
+}
