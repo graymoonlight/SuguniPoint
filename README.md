@@ -19,13 +19,14 @@ SuguniPoint is an open and innovative marketplace created using modern technolog
 ## Getting Started
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/SuguniPoint.git
+    ```
+    git clone https://github.com/graymoonlight/SuguniPoint.git
     ```
 
 2. **Install dependencies:**
-    ```bash
-    cd SuguniPoint/src
+    ```
+    cd client
+    cd server
     npm install
     ```
 
@@ -33,7 +34,7 @@ SuguniPoint is an open and innovative marketplace created using modern technolog
     - Configure database in server folder
 
 4. **Run the application:**
-    ```bash
+    ```
     npm run start / npm run dev
     ```
 

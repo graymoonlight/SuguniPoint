@@ -1,0 +1,56 @@
+.main-reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin: 0;
+}
+
+.main-reg > * {
+    margin-bottom: 100px;
+}
+
+.auth-title {
+    color: #3E2723;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.nice-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #FFD3DC;
+}
+
+.nice-input:focus {
+    outline: none;
+    border-color: #FAB9C5; 
+    box-shadow: 0 0 8px rgba(106, 27, 154, 0.3);
+}
+
+.nice-input::placeholder{
+    text-align: center;
+}
+
+.btn-reg button {
+    padding: 10px 15px;
+    background-color: #FFD3DC;
+    color: #8F9779;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reg button:hover {
+    background-color: #FAB9C5;
+}
